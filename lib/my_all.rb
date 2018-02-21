@@ -7,5 +7,5 @@ def my_all?(collection)
     collect << yield(collection[i])
     i += 1
   end
-collect
+if collect.include?
 end
